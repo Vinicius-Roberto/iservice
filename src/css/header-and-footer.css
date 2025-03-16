@@ -1,0 +1,97 @@
+
+.main-header{
+    padding: 20px 40px;
+    background-color: #F5C800;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.left-content-header, .right-content-header{
+    display: flex;
+    align-items: center;
+}
+
+.button-user{
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    padding: 2px;
+    transition: ease 0.3s ease-in-out;
+}
+.button-user:hover{
+    color: aliceblue;
+    background-color: #A08C35
+}
+
+.main-header #logo{
+    max-height: 40px;
+}
+
+.buttons-header{
+    display: flex;
+    /* position: fixed; */
+    justify-content: space-around;
+    background-color: #F5C800;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    box-shadow: 10px solid blac;
+}
+
+.buttons-header  a{
+    text-decoration: none;
+    color: black;
+    /* border: 1px solid black; */
+    padding: 10px 25px;
+    font-size: 12px;
+}
+.buttons-header a:hover{
+    background-color: #A08C35;
+    color: aliceblue;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    gap: 20px;
+    padding: 50px 100px;
+    margin-top: 30px;
+    background-color: #F5C800;
+    cursor: default;
+}
+
+#line-up{
+    display: inline-block;
+    position: relative;
+    height: 200px;
+    width: 1px;
+    background-color: #4B4632;
+    left: 30px;
+}
+
+#sobre-footer{
+    align-items: center;
+    padding-right: 30px;
+}
+
+.text-footer{
+    color: black;
+}
+
+#sobre-footer .title-sobre__footer{
+    font-weight: 600;
+}
+
+#direitos{
+    justify-items: center;
+    align-content: center;
+}
+#direitos p{
+    padding-left: 20px;
+}
+
+#direitos img{
+    height: 50px;
+    margin-bottom: 50px;
+}
+

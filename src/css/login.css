@@ -1,0 +1,45 @@
+
+body{
+    background-color: #F5C800 !important;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 100px;
+    gap: 100px;
+}
+
+.login-content{
+    padding: 30px;
+    background-color: aliceblue;
+    border-radius: 16px;
+}
+
+.text__section{
+    align-content: center;
+}
+
+.text__section h2{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.btn.btn-primary{
+    background-color: #2D2DB5;
+    transition: ease 0.3s ease-in-out;
+}
+.btn.btn-primary:hover{
+    background-color: #0000F5;
+    box-shadow: 2px 2px 5px #4d4d4db9;
+}
+
+.buttons-login{
+    display: flex;
+}
+
+.buttons-login p{
+    margin: 0px;
+    align-content: center;
+    padding: 0 0 0 30px;
+}
